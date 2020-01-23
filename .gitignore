@@ -1,3 +1,10 @@
+# Hidden dirs
+.idea/
+.ipynb_checkpoints/
+
+# Archives
+*.zip
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
