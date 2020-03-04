@@ -1,11 +1,11 @@
 # Import dependencies
 import numpy as np
 import pykitti
-import parseTrackletXML as xmlParser
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-from utilities import print_progress
 from moviepy.editor import ImageSequenceClip
+import exploreKITTI.parseTrackletXML as xmlParser
+from exploreKITTI.utilities import print_progress
 
 # Define constants
 basedir = 'data'
